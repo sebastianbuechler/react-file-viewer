@@ -1,11 +1,11 @@
 // Copyright (c) 2017 PlanGrid, Inc.
 
-const fs = require('fs');
-const path = require('path');
-const execSync = require('child_process').execSync;
+import fs from 'fs';
+import path from 'path';
+import { execSync } from 'child_process';
 
-const inquirer = require('inquirer');
-const chalk = require('chalk');
+import inquirer from 'inquirer';
+import chalk from 'chalk';
 
 const runColor = chalk.bold.blue;
 const errColor = chalk.bold.red;
@@ -23,9 +23,9 @@ inquirer.prompt([
     name: 'publish',
     message: 'Select a version to publish. This will run all tests and build first.',
     default: 0,
-    choices: ['Abort', 'patch', 'minor', 'major']
-  }
-]).then(function(answers) {
+    choices: ['Abort', 'patch', 'minor', 'major'],
+  },
+]).then((answers) => {
   const answer = answers.publish;
 
   if (answer === 'Abort') {
@@ -34,10 +34,10 @@ inquirer.prompt([
   }
 
   const execOpts = {
-    stdio: [0, 1, 2]
+    stdio: [0, 1, 2],
   };
 
-  //run tests
+  // run tests
   try {
     console.log(runColor('running tests'));
     execSync(jestCommand);

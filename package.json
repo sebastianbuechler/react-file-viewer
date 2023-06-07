@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/plangrid/react-file-viewer.git"
   },
+  "type": "module",
   "scripts": {
     "dev": "webpack -d --watch",
     "build": "webpack -p --progress",
