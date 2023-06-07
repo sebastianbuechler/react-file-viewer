@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/plangrid/react-file-viewer#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.1",
     "autoprefixer": "^9.8.8",
     "babel-core": "^6.24.1",
     "babel-jest": "^29.5.0",
@@ -85,7 +86,7 @@
     "react-data-grid": "^5.0.5",
     "react-visibility-sensor": "^5.0.2",
     "three": "0.125.0",
-    "xlsx": "^0.18.5"
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz"
   },
   "peerDependencies": {
     "react": "^16.6.3",
