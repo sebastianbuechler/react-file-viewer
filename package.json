@@ -83,16 +83,16 @@
   "dependencies": {
     "comma-separated-values": "^3.6.4",
     "mammoth": "1.6.0",
-    "pdfjs-dist": "2.16.105",
-    "prop-types": "^15.5.10",
-    "react-data-grid": "^5.0.5",
-    "react-visibility-sensor": "^5.0.2",
-    "three": "0.125.0",
+    "pdfjs-dist": "3.7.107",
+    "prop-types": "^15.8.1",
+    "react-data-grid": "^6.0.1",
+    "react-visibility-sensor": "^5.1.1",
+    "three": "0.153.0",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz"
   },
   "peerDependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react": "18",
+    "react-dom": "18"
   },
   "jest": {
     "testPathIgnorePatterns": [
