@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/plangrid/react-file-viewer#readme",
   "devDependencies": {
-    "autoprefixer": "^7.1.0",
+    "autoprefixer": "^9.8.8",
     "babel-core": "^6.24.1",
     "babel-jest": "^20.0.3",
     "babel-loader": "^7.0.0",
